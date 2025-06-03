@@ -10,3 +10,9 @@
 ## 내 역할
 - 차량 제원 데이터 수집 및 정리 (`ctb_list.txt`)
 - 데이터 전처리 파이프라인 구축 (`data_preprocess/`)
+
+## 결과물
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c6f78dbb-352e-4a59-91a4-2b701c5f2d83" width="45%" />
+  <img src="https://github.com/user-attachments/assets/ae482634-d007-453e-9090-78e1483de863" width="45%" style="margin-left: 10px;" />
+</p>
