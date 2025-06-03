@@ -1,0 +1,8 @@
+모델:move_3d 데이터:933
+docker run -it --gpus all --name move_3d -v /home/dblab/seong_space2/0002_move_3d:/home/dblab/seong_space2/0002_move_3d tensorflow/tensorflow:2.14.0-gpu /bin/bash
+cd /home/dblab/seong_space2/0002_move_3d/app
+pip install pandas
+pip install opencv-python-headless
+pip install scikit-learn
+python 0011_04_train_model.py | tee /home/dblab/seong_space2/0002_move_3d/data/train_output/1125/0001_01_train.txt
+python 0011_05_test_model.py | tee /home/dblab/seong_space2/0002_move_3d/data/train_output/1125/0001_01_test.txt
